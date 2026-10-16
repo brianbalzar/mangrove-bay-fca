@@ -31,3 +31,12 @@ Checked `dist/data.js` against the PDF. No corrections were needed.
 
 - Scenario model math (same results as before: $128.2M future-dollar / $86.6M 2026-dollar backlog at FY36 with $15.1M/yr and 4% escalation).
 - The other seven site profiles remain summary-level; the report has no component inventory for them.
+
+# Revisions — October 16, 2026: Overview KPI cards (Codex handoff)
+
+1. Replaced the six-cell KPI strip with "Portfolio at a glance": four cards (Current needs, Facility condition, 10-year renewal, Net savings potential), each with a basis line, a mini visual and a link. Four columns at ≥1050px, two below, one at ≤600px.
+2. Card values are derived from `data.js`: Priority 1 total and count from the findings register ($7.242M, 8), condition counts from site ratings (4/2/2), the FY27–FY28 share from the annual forecast ($88.88M of $209.1M), the measure count from the catalog (10), and scope/date from the portfolio and cutoff fields.
+3. Card links: Action Plan filtered to Priority 1, Sites, Capital Plan, and the Funding page's improvement-measures catalog (`#/funding?section=measures`, a new section-scroll target in the router).
+4. Overview order: hero → Portfolio at a glance → Four decisions → map + FCI ranking → funding-constraint callout → Energy performance → story behind the numbers.
+5. New compact Energy performance section with EUI (50.5 kBtu/sf, ENERGY STAR K–12 median 48.5 as a national reference) and energy cost ($1.70/sf, FL statewide $1.35, FL DOE 2024–25), linking to the Energy page.
+6. Funding page: the measures section notes that the $503K/yr catalog total is separate from the $344K/yr contract-package estimate.
