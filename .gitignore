@@ -1,0 +1,3 @@
+# Build output: regenerate with `python tools/build_standalone.py`; keep it in OneDrive, not the repo.
+Mangrove-Bay-FCA.html
+__pycache__/
