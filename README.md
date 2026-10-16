@@ -58,6 +58,8 @@ See **CHANGES.md** for the revisions made after the original export.
 
 ## Preview on GitHub Pages
 
+Live preview: https://brianbalzar.github.io/mangrove-bay-fca/
+
 `.github/workflows/pages.yml` runs `tests/verify.mjs` and publishes **dist** on every push to `main`. One-time setup: repo Settings > Pages > Source: **GitHub Actions**. The site works under a `/<repo>/` subpath because all paths are relative and routes use URL fragments.
 
 The preview carries a `noindex` tag and a `robots.txt` that blocks crawlers. Remove both before the Upchurch launch. GitHub Pages sites are public even when the repository is private.
